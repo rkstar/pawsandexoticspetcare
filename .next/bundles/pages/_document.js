@@ -10,10 +10,11 @@ module.exports =
 "use strict";
 /* WEBPACK VAR INJECTION */(function(module) {/* unused harmony export FADED_ORANGE */
 /* unused harmony export LIGHT_ORANGE */
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "b", function() { return BURNT_ORANGE; });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "d", function() { return WHITE; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "b", function() { return BRIGHT_ORANGE; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "c", function() { return BURNT_ORANGE; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "e", function() { return WHITE; });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return BLACK; });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "c", function() { return LIGHT_GREY; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "d", function() { return LIGHT_GREY; });
 (function () {
   var enterModule = __webpack_require__("./node_modules/react-hot-loader/index.js").enterModule;
 
@@ -22,6 +23,7 @@ module.exports =
 
 var FADED_ORANGE = '#F9AF7C';
 var LIGHT_ORANGE = '#F7B589';
+var BRIGHT_ORANGE = '#fb9254';
 var BURNT_ORANGE = '#F55A2B';
 var WHITE = '#FAFAFA';
 var BLACK = '#121212';
@@ -39,6 +41,7 @@ var LIGHT_GREY = '#CCCCCC';
 
   reactHotLoader.register(FADED_ORANGE, "FADED_ORANGE", "/Users/rkstar/dev/projects/pawsandexotics/constants/colors.js");
   reactHotLoader.register(LIGHT_ORANGE, "LIGHT_ORANGE", "/Users/rkstar/dev/projects/pawsandexotics/constants/colors.js");
+  reactHotLoader.register(BRIGHT_ORANGE, "BRIGHT_ORANGE", "/Users/rkstar/dev/projects/pawsandexotics/constants/colors.js");
   reactHotLoader.register(BURNT_ORANGE, "BURNT_ORANGE", "/Users/rkstar/dev/projects/pawsandexotics/constants/colors.js");
   reactHotLoader.register(WHITE, "WHITE", "/Users/rkstar/dev/projects/pawsandexotics/constants/colors.js");
   reactHotLoader.register(BLACK, "BLACK", "/Users/rkstar/dev/projects/pawsandexotics/constants/colors.js");
@@ -1775,7 +1778,7 @@ function (_Document) {
           fileName: _jsxFileName,
           lineNumber: 14
         }
-      }, "\n            body {\n              background-color: ".concat(__WEBPACK_IMPORTED_MODULE_2__constants_colors__["d" /* WHITE */], ";\n              color: ").concat(__WEBPACK_IMPORTED_MODULE_2__constants_colors__["a" /* BLACK */], ";\n            }\n          ")), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("script", {
+      }, "\n            body {\n              background-color: ".concat(__WEBPACK_IMPORTED_MODULE_2__constants_colors__["e" /* WHITE */], ";\n              color: ").concat(__WEBPACK_IMPORTED_MODULE_2__constants_colors__["a" /* BLACK */], ";\n            }\n          ")), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("script", {
         defer: true,
         src: "https://use.fontawesome.com/releases/v5.0.13/js/all.js",
         integrity: "sha384-xymdQtn1n3lH2wcu0qhcdaOpQwyoarkgLVxC/wZ5q7h9gHtxICrpcaSUfygqZGOe",

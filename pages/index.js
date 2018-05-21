@@ -35,7 +35,7 @@ export default () => (
       </section>
 
       <section>
-        <h1>Pet Setting</h1>
+        <h1>Pet Sitting</h1>
         <p>
         Leaving your pet while you're away can be stressful. Consider hiring a professional to care for your pet and <a href="https://youtu.be/NT1tZmGvFfY" target="_blank" rel="noopener noreferrer">dance your cares away.</a>
         </p>
@@ -50,6 +50,9 @@ export default () => (
     </main>
     <section>
       <h1>Service Area</h1>
+      <p>
+      My usual service area is basically Mississauga, but I have also serviced clients in Brampton, Oakville, and Etobicoke as well.
+      </p>
       <ServiceMap />
     </section>
     <main>

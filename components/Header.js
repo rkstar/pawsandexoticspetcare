@@ -1,6 +1,6 @@
 import React from 'react';
 import Link from 'next/link';
-import { BLACK, WHITE, BURNT_ORANGE } from '../constants/colors';
+import { BLACK, WHITE, BRIGHT_ORANGE } from '../constants/colors';
 import Menu from './Menu';
 
 export default () => (
@@ -15,7 +15,7 @@ export default () => (
     <style jsx>{`
       header {
         z-index: 100;
-        background-color: ${BURNT_ORANGE};
+        background-color: ${BRIGHT_ORANGE};
         color: ${BLACK};
         height: 4rem;
         display: flex;

@@ -55,11 +55,6 @@ export default () => (
           </a>
         </li>
       </ul>
-
-      <p>
-      7044 Estoril Rd <br />
-      Mississauga, ON L5N 1N4
-      </p>
     </section>
     <style jsx>{`
       footer {

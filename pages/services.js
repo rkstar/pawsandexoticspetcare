@@ -15,45 +15,52 @@ export default () => (
     <Banner imagepath="/static/img/big-lizard-oreo.jpg">
       <h1>That's what I do!</h1>
       <img src="/static/img/animals-line.png" />
-
     </Banner>
-    <main>
-      <section>
-        <h1>All About Me</h1>
-        <p>
-    My name is Catherine Fudge and I am the owner/ operator of Paws and Exotics Pet Care Services.
-     I have been in the animal care industry 5 years caring for all breeds of dogs and cats as well as
-     lizards, snakes, and other exotic pets.
-        </p>
-        <p>
-    I graduated from the Animal Care program at Sheridan College with honours in 2014.
-     Since graduation, I have worked in veterinary hospitals treating all breeds of dogs and cats,
-    and even some reptiles. I have personally owned and fostered dogs, cats, and reptiles.
-        </p>
-        <p>
-        Please feel free to reach out to me with questions, check out my social media links
-         below and take a look at some of my reviews here.
-        </p>
-        <div>
-          <Button href={PHONE}>call me</Button>
-          <p>
-            <a href={FACEBOOK} target="_blank" rel="noopener noreferrer">
-              <Icon icon="facebook" style={iconStyle} />
-            </a>
-            <a href={INSTAGRAM} target="_blank" rel="noopener noreferrer">
-              <Icon icon="instagram" style={iconStyle} />
-            </a>
-          </p>
-        </div>
-      </section>
-    </main>
+    <section>
+      <h1>Dog Walking</h1>
+      <p>
+        I offer private, leashed walks in your local neighbourhood. You can book either 30 or 60-miunute walks.
+      </p>
+      <img src="/static/img/2-big-dogs.jpg" alt="2 big dogs on a deck" />
+    </section>
+    <section>
+      <h1>Drop-In Visits</h1>
+      <p>
+        Drop-in visits for dogs, cats, pocket pets, and reptiles. While I'm there, I will clean/change litter, freshen water, feed,
+         clean cages and/or aquariums, potty break, playtime, and socialization (aka love!). I will also clean up any messes that
+         happened before or during my visit. If your pet is on medication, I will also administer as required (oral meds only).
+      </p>
+      <img src="/static/img/bunnies.jpg" alt="cute bunnies eating" />
+    </section>
+    <section>
+      <h1>Pet Sitting</h1>
+      <p>
+        I offer live-in or daily-visit vacation pet setting. For live-in sitting, I will care for your pets as well as your home.
+         This includes watering plants, bringing in the mail, basic cleaning, and everything included with drop-in visits.
+      </p>
+      <img src="/static/img/jerry.jpg" alt="jerry!" />
+    </section>
+    <section>
+      <h1>Basic Grooming</h1>
+      <p>
+        I can also do some basic grooming of your pets such as nail clipping, de-matting fur, and ear cleaning.
+      </p>
+      <img src="/static/img/cat-toes.jpg" alt="ready for a nail trim!" />
+    </section>
+    <Banner imagepath="/static/img/2-cats.jpg">
+      <h1>Still have questions?</h1>
+      <Button href="tel:14164079638">call me</Button>
+    </Banner>
     <style jsx>{`
       div {
         text-align: center;
       }
 
+      p {
+        margin: 0 .5rem;
+      }
+
       img {
-        max-width: 80%;
         margin: 1rem 0;
       }
 

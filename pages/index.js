@@ -3,7 +3,9 @@ import Layout from '../components/Layout';
 import Banner from '../components/Banner';
 import Button from '../components/Button';
 import Icon from '../components/Icon';
+import ServiceMap from '../components/ServiceMap';
 import Testimonial from '../components/Testimonial';
+import { BURNT_ORANGE } from '../constants/colors';
 
 const iconStyle = {
   margin: '0 .25rem',
@@ -11,52 +13,44 @@ const iconStyle = {
 export default () => (
   <Layout title="home page">
     <Banner imagepath="/static/img/lizard.jpg">
-      <h1>I love gross things too!</h1>
+      <h1>Reptiles need love too!</h1>
       <h2>
         <Icon icon="heart" style={iconStyle} />
         <Icon icon="heart" style={iconStyle} />
         <Icon icon="heart" style={iconStyle} />
       </h2>
       <p>
-      Sure, walking dogs is fun and batting around a plaything with cats is cool,
-       but I also love slippery, slimey, scaley, disgusting exotic pets too.
+      Everyone thinks puppies and kittens are cute but
+       lizards, snakes, rats, and other "creepy-crawlies" are cute too.
       </p>
       <Button href="tel:14164079638">call me</Button>
     </Banner>
     <main>
       <section>
-        <h1>GTAs favourite exotic pet care</h1>
+        <h1>All breeds, all species!</h1>
         <p>
-        With over 10 years of exotic pet care experience, we are the best choice for
-         short and long term care for your snakes, lizards, spiders, raccoons, and long-haired camels.
+        With over 10 years of exotic pet care experience, I am the best choice for
+         short and long term care for your snakes, lizards, pocket pets, cats, and dogs.
         </p>
       </section>
 
       <section>
-        <h1>Vacation Pet Setting</h1>
+        <h1>Pet Setting</h1>
         <p>
-        Leave your pet home where they are most comfortable and we will come and visit them. We are your stress free alternative to boarding or imposing on friends and family. Go ahead! Book that vacation!
+        Leaving your pet while you're away can be stressful. Consider hiring a professional to care for your pet and <a href="https://youtu.be/NT1tZmGvFfY" target="_blank" rel="noopener noreferrer">dance your cares away.</a>
         </p>
       </section>
 
       <section>
-        <h1>Mid-day Dog Walking</h1>
+        <h1>Dog Walking</h1>
         <p>
-        We'll walk the dog for you when you're too busy. Daily, weekly or as needed. Perfect for the busy professional or for help potty training puppies.
+        Dogs love going for walks at all times of the day and night; turns out I do too! If you need your dog taken for a walk at morning, noon, or night, <a href="https://youtu.be/Niu9Zmrx0p8" target="_blank" rel="noopener noreferrer">I'll be there for you.</a>
         </p>
       </section>
     </main>
     <section>
       <h1>Service Area</h1>
-      <iframe
-        title="service area"
-        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7033.36178313984!2d-79.77020795888578!3d43.59813188493247!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x882b6a608b0e51e9%3A0x1751c8a57c037b9f!2s7044+Estoril+Rd%2C+Mississauga%2C+ON+L5N+1N4!5e0!3m2!1sen!2sca!4v1526845124357"
-        width="100%"
-        height="450"
-        frameBorder="0"
-        style={{ border: 0 }}
-        allowFullScreen
-      />
+      <ServiceMap />
     </section>
     <main>
       <section className="testimonials">
@@ -97,6 +91,10 @@ far off.
 
       section.testimonials {
         text-align: left;
+      }
+
+      a {
+        color: ${BURNT_ORANGE};
       }
     `}
     </style>

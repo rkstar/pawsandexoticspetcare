@@ -32,7 +32,7 @@ export default () => (
      lizards, snakes, and other exotic pets.
         </p>
         <p>
-    I graduated from the Animal Care program at Sheridan College with honours in 2011.
+    I graduated from the Animal Care program at Sheridan College with honours in 2014.
      Since graduation, I have worked in veterinary hospitals treating all breeds of dogs and cats,
     and even some reptiles. I have personally owned and fostered dogs, cats, and reptiles.
         </p>

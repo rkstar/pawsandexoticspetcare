@@ -5,8 +5,9 @@
   "main": "index.js",
   "scripts": {
     "start": "next",
-    "prepare": "next build",
-    "deploy": "gcloud beta functions deploy paws --trigger-http",
+    "prod": "npm run build && next start",
+    "build": "next build",
+    "deploy": "npm run build && now",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],

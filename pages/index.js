@@ -6,6 +6,7 @@ import Icon from '../components/Icon';
 import ServiceMap from '../components/ServiceMap';
 import Testimonial from '../components/Testimonial';
 import { BURNT_ORANGE } from '../constants/colors';
+import { EMAIL, PHONE } from '../constants/external';
 
 const iconStyle = {
   margin: '0 .25rem',
@@ -23,7 +24,10 @@ export default () => (
       Everyone thinks puppies and kittens are cute but
        lizards, snakes, rats, and other "creepy-crawlies" are cute too.
       </p>
-      <Button href="tel:14164079638">call me</Button>
+      <article>
+        <Button href={PHONE}>call me</Button>
+        <Button href={EMAIL}>email me</Button>
+      </article>
     </Banner>
     <main>
       <section>
@@ -86,7 +90,10 @@ far off.
         height: '30vh',
       }}
     >
-      <Button href="tel:14164079638">call me</Button>
+      <article>
+        <Button href={PHONE}>call me</Button>
+        <Button href={EMAIL}>email me</Button>
+      </article>
     </Banner>
     <style jsx>{`
       section {

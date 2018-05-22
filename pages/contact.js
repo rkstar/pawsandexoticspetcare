@@ -62,7 +62,10 @@ export default () => (
     </main>
     <Banner imagepath="/static/img/happy-dog.jpg">
       <h1>Still have questions?</h1>
-      <Button href="tel:14164079638">call me</Button>
+      <article>
+        <Button href={PHONE}>call me</Button>
+        <Button href={EMAIL}>email me</Button>
+      </article>
     </Banner>
     <style jsx>{`
       div {

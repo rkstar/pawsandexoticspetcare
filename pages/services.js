@@ -51,7 +51,10 @@ export default () => (
     </section>
     <Banner imagepath="/static/img/2-cats.jpg">
       <h1>Still have questions?</h1>
-      <Button href="tel:14164079638">call me</Button>
+      <article>
+        <Button href={PHONE}>call me</Button>
+        <Button href={EMAIL}>email me</Button>
+      </article>
     </Banner>
     <style jsx>{`
       div {

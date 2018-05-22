@@ -43,6 +43,7 @@ export default () => (
       </section>
       <section className="call-me">
         <Button href={PHONE}>call me</Button>
+        <Button href={EMAIL}>email me</Button>
         <p>
           <a href={FACEBOOK} target="_blank" rel="noopener noreferrer">
             <Icon icon="facebook" style={iconStyle} />

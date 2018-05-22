@@ -72,6 +72,18 @@ export default () => (
       a {
         color: ${BURNT_ORANGE}
       }
+
+      @media (min-width: 1025px) {
+        main {
+          display: flex;
+          justify-content: space-around;
+          align-items: flex-start;
+        }
+
+        section {
+          width: 45%;
+        }
+      }
     `}
     </style>
   </Layout>

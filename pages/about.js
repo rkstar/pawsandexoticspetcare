@@ -40,26 +40,35 @@ export default () => (
         Please feel free to reach out to me with questions, check out my social media links
          below and take a look at some of my reviews here.
         </p>
-        <div>
-          <Button href={PHONE}>call me</Button>
-          <p>
-            <a href={FACEBOOK} target="_blank" rel="noopener noreferrer">
-              <Icon icon="facebook" style={iconStyle} />
-            </a>
-            <a href={INSTAGRAM} target="_blank" rel="noopener noreferrer">
-              <Icon icon="instagram" style={iconStyle} />
-            </a>
-          </p>
-        </div>
+      </section>
+      <section className="call-me">
+        <Button href={PHONE}>call me</Button>
+        <p>
+          <a href={FACEBOOK} target="_blank" rel="noopener noreferrer">
+            <Icon icon="facebook" style={iconStyle} />
+          </a>
+          <a href={INSTAGRAM} target="_blank" rel="noopener noreferrer">
+            <Icon icon="instagram" style={iconStyle} />
+          </a>
+        </p>
       </section>
     </main>
     <style jsx>{`
-      div {
+      section.call-me {
         text-align: center;
+        min-width: 40%;
       }
 
       a {
         color: ${BLACK}
+      }
+
+      @media (min-width: 1025px) {
+        main {
+          display: flex;
+          justify-content: space-around;
+          align-items: center;
+        }
       }
     `}
     </style>

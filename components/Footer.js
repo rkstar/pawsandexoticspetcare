@@ -8,29 +8,6 @@ export default () => (
   <footer>
     <section>
       <h1>PAWS & EXOTICS PET CARE SERVICES</h1>
-      <ul>
-        <li>
-          <Link href="/">
-            <a>home</a>
-          </Link>
-        </li>
-        <li>
-          <Link href="/about">
-            <a>about</a>
-          </Link>
-        </li>
-        <li>
-          <Link href="/services">
-            <a>services</a>
-          </Link>
-        </li>
-        <li>
-          <Link href="/contact">
-            <a>contact</a>
-          </Link>
-        </li>
-      </ul>
-      <p />
     </section>
     <section>
       <ul className="social">
@@ -56,17 +33,48 @@ export default () => (
         </li>
       </ul>
     </section>
+    <section className="menu">
+      <ul>
+        <li>
+          <Link href="/">
+            <a>home</a>
+          </Link>
+        </li>
+        <li>
+          <Link href="/about">
+            <a>about</a>
+          </Link>
+        </li>
+        <li>
+          <Link href="/services">
+            <a>services</a>
+          </Link>
+        </li>
+        <li>
+          <Link href="/contact">
+            <a>contact</a>
+          </Link>
+        </li>
+      </ul>
+    </section>
     <style jsx>{`
       footer {
         display: flex;
         align-items: flex-start;
+        align-content: flex-start;
+        flex-wrap: wrap;
         justify-content: space-around;
-        font-size: .7rem;
         font-weight: 100;
       }
 
       section {
-        max-width: 49vw;
+        text-align: center;
+        width: 50%;
+      }
+
+      section.menu {
+        text-align: center;
+        width: 100%;
       }
 
       h1 {
@@ -91,7 +99,8 @@ export default () => (
       }
 
       ul li {
-        margin: .5rem .25rem;
+        display: inline-block;
+        margin: .5rem 1rem;
       }
 
       ul.social {

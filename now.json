@@ -4,5 +4,10 @@
   "env": {
     "NODE_ENV": "production"
   },
-  "type": "npm"
+  "routes": [
+    {
+      "src": "/",
+      "dest": "/pages/index.js"
+    }
+  ]
 }

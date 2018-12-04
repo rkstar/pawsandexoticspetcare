@@ -22,6 +22,7 @@ const randomTestimonials = (list, count) => {
   for (let i = 0; i < count; i++) {
     picked.push(randomNumber(length, picked));
   }
+
   return picked.map(idx => list[idx]);
 };
 

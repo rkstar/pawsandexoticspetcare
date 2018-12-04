@@ -5,10 +5,10 @@
   "env": {
     "NODE_ENV": "production"
   },
-  "routes": [
+  "builds": [
     {
-      "src": "/",
-      "dest": "/pages/index"
+      "src": "next.config.js",
+      "use": "@now/next"
     }
   ]
 }
